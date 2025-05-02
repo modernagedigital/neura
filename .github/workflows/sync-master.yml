@@ -3,7 +3,7 @@ name: Sync Master Tokens to Sites
 on:
   push:
     paths:
-      - 'master/**'
+      - "master/**"
     branches:
       - main
 
