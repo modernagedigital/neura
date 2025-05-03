@@ -2,31 +2,31 @@
   "colors": {
     "gray": {
       "300": {
-        "$type": "other",
+        "$type": "color",
         "$value": "#DDDDDD"
       },
       "400": {
-        "$type": "other",
+        "$type": "color",
         "$value": "#666666"
       },
       "500": {
-        "$type": "other",
+        "$type": "color",
         "$value": "#555555"
       },
       "600": {
-        "$type": "other",
+        "$type": "color",
         "$value": "#444444"
       },
       "700": {
-        "$type": "other",
+        "$type": "color",
         "$value": "#333333"
       },
       "800": {
-        "$type": "other",
+        "$type": "color",
         "$value": "#222222"
       },
       "900": {
-        "$type": "other",
+        "$type": "color",
         "$value": "#111111"
       }
     }
