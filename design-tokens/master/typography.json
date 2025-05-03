@@ -1,3 +1,10 @@
 {
-  "typography.heading.lg": "32px"
+  "typography": {
+    "heading": {
+      "lg": {
+        "$type": "other",
+        "$value": "32px"
+      }
+    }
+  }
 }
