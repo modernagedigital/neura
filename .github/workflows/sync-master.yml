@@ -3,7 +3,7 @@ name: Sync Master Tokens to Sites
 on:
   push:
     paths:
-      - "master/**"
+      - "design-tokens/master/**"
     branches:
       - main
 
@@ -17,7 +17,8 @@ jobs:
 
       - name: Copy master tokens into each site
         run: |
-          SITE_FOLDERS=$(ls -d */ | grep -v '^master/$' | grep -v '^.github/$')
+          cd design-tokens
+          SITE_FOLDERS=$(ls -d */ | grep -v '^master/$')
           for folder in $SITE_FOLDERS; do
             mkdir -p "$folder/core"
             cp -r master/* "$folder/core/"
