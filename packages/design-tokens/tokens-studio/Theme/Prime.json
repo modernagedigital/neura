@@ -3,31 +3,31 @@
     "base": {
       "primary-light": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.900}"
+        "$value": "{tailwind-colors.neutral.900}"
       },
       "primary-dark": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.200}"
+        "$value": "{tailwind-colors.neutral.200}"
       },
       "accent-light": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.100}"
+        "$value": "{tailwind-colors.neutral.100}"
       },
       "accent-foreground-dark": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.50}"
+        "$value": "{tailwind-colors.neutral.50}"
       },
       "background-light": {
         "$type": "color",
-        "$value": "{tailwind colors.base.white}"
+        "$value": "{tailwind-colors.base.white}"
       },
       "background-dark": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.950}"
+        "$value": "{tailwind-colors.neutral.950}"
       },
       "border-light": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.200}"
+        "$value": "{tailwind-colors.neutral.200}"
       },
       "border-dark": {
         "$type": "color",
@@ -35,55 +35,55 @@
       },
       "card-light": {
         "$type": "color",
-        "$value": "{tailwind colors.base.white}"
+        "$value": "{tailwind-colors.base.white}"
       },
       "card-dark": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.900}"
+        "$value": "{tailwind-colors.neutral.900}"
       },
       "accent-dark": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.700}"
+        "$value": "{tailwind-colors.neutral.700}"
       },
       "card-foreground-light": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.950}"
+        "$value": "{tailwind-colors.neutral.950}"
       },
       "card-foreground-dark": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.50}"
+        "$value": "{tailwind-colors.neutral.50}"
       },
       "destructive-light": {
         "$type": "color",
-        "$value": "{tailwind colors.red.600}"
+        "$value": "{tailwind-colors.red.600}"
       },
       "destructive-dark": {
         "$type": "color",
-        "$value": "{tailwind colors.red.400}"
+        "$value": "{tailwind-colors.red.400}"
       },
       "destructive-foreground-light": {
         "$type": "color",
-        "$value": "{tailwind colors.red.50}"
+        "$value": "{tailwind-colors.red.50}"
       },
       "destructive-foreground-dark": {
         "$type": "color",
-        "$value": "{tailwind colors.red.50}"
+        "$value": "{tailwind-colors.red.50}"
       },
       "accent-foreground-light": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.900}"
+        "$value": "{tailwind-colors.neutral.900}"
       },
       "foreground-light": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.950}"
+        "$value": "{tailwind-colors.neutral.950}"
       },
       "foreground-dark": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.50}"
+        "$value": "{tailwind-colors.neutral.50}"
       },
       "input-light": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.200}"
+        "$value": "{tailwind-colors.neutral.200}"
       },
       "input-dark": {
         "$type": "color",
@@ -91,51 +91,51 @@
       },
       "muted-light": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.100}"
+        "$value": "{tailwind-colors.neutral.100}"
       },
       "muted-dark": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.800}"
+        "$value": "{tailwind-colors.neutral.800}"
       },
       "primary-foreground-light": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.50}"
+        "$value": "{tailwind-colors.neutral.50}"
       },
       "primary-foreground-dark": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.900}"
+        "$value": "{tailwind-colors.neutral.900}"
       },
       "ring-light": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.400}"
+        "$value": "{tailwind-colors.neutral.400}"
       },
       "ring-dark": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.500}"
+        "$value": "{tailwind-colors.neutral.500}"
       },
       "secondary-light": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.100}"
+        "$value": "{tailwind-colors.neutral.100}"
       },
       "secondary-dark": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.800}"
+        "$value": "{tailwind-colors.neutral.800}"
       },
       "secondary-foreground-light": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.900}"
+        "$value": "{tailwind-colors.neutral.900}"
       },
       "secondary-foreground-dark": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.50}"
+        "$value": "{tailwind-colors.neutral.50}"
       },
       "muted-foreground-light": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.500}"
+        "$value": "{tailwind-colors.neutral.500}"
       },
       "muted-foreground-dark": {
         "$type": "color",
-        "$value": "{tailwind colors.neutral.400}"
+        "$value": "{tailwind-colors.neutral.400}"
       }
     }
   },

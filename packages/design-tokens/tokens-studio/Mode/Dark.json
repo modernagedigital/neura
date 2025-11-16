@@ -211,7 +211,7 @@
     },
     "blue-500 dark:blue-600": {
       "$type": "color",
-      "$value": "{tailwind colors.blue.600}",
+      "$value": "{tailwind-colors.blue.600}",
       "$description": "Used in UI elements that have accent color variable in light mode and input/50 variable in dark mode"
     },
     "border dark:input-dark": {
