@@ -1,9 +1,8 @@
 {
   "tokenSetOrder": [
-    "global",
     "Foundations/Default",
     "Theme/Prime",
-    "Theme/TestTheme",
+    "Sites/TestSite",
     "Mode/Light",
     "Mode/Dark",
     "Breakpoint/Desktop",
