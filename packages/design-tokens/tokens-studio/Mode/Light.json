@@ -1,0 +1,240 @@
+{
+  "base": {
+    "accent": {
+      "$type": "color",
+      "$value": "{colors.base.accent-light}",
+      "$description": "Highlight color for active or focused elements"
+    },
+    "accent-foreground": {
+      "$type": "color",
+      "$value": "{colors.base.accent-foreground-light}",
+      "$description": "Text and icons on accent-colored elements"
+    },
+    "background": {
+      "$type": "color",
+      "$value": "{colors.base.background-light}",
+      "$description": "Main application background"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{colors.base.border-light}",
+      "$description": "Default border color"
+    },
+    "card": {
+      "$type": "color",
+      "$value": "{colors.base.card-light}",
+      "$description": "Card component background"
+    },
+    "card-foreground": {
+      "$type": "color",
+      "$value": "{colors.base.card-foreground-light}",
+      "$description": "Text and icons within cards"
+    },
+    "destructive": {
+      "$type": "color",
+      "$value": "{colors.base.destructive-light}",
+      "$description": "Error and deletion action color"
+    },
+    "destructive-foreground": {
+      "$type": "color",
+      "$value": "{colors.base.destructive-foreground-light}",
+      "$description": "Text and icons on destructive-colored elements"
+    },
+    "foreground": {
+      "$type": "color",
+      "$value": "{colors.base.foreground-light}",
+      "$description": "Primary text color on the background"
+    },
+    "input": {
+      "$type": "color",
+      "$value": "{colors.base.input-light}",
+      "$description": "Form inputs and button borders"
+    },
+    "muted": {
+      "$type": "color",
+      "$value": "{colors.base.muted-light}",
+      "$description": "Subdued background for less important elements"
+    },
+    "muted-foreground": {
+      "$type": "color",
+      "$value": "{colors.base.muted-foreground-light}",
+      "$description": "De-emphasized text (captions, labels)"
+    },
+    "popover": {
+      "$type": "color",
+      "$value": "{colors.popover-light}",
+      "$description": "Background for dropdown menus and popovers"
+    },
+    "popover-foreground": {
+      "$type": "color",
+      "$value": "{colors.popover-foreground-light}",
+      "$description": "Text and icons within popovers"
+    },
+    "primary": {
+      "$type": "color",
+      "$value": "{colors.base.primary-light}",
+      "$description": "Brand color for primary actions (buttons, highlights)"
+    },
+    "primary-foreground": {
+      "$type": "color",
+      "$value": "{colors.base.primary-foreground-light}",
+      "$description": "Text and icons on primary-colored elements"
+    },
+    "ring": {
+      "$type": "color",
+      "$value": "{colors.base.ring-light}",
+      "$description": "Focus indicator color"
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": "{colors.base.secondary-light}",
+      "$description": "Less prominent action color"
+    },
+    "secondary-foreground": {
+      "$type": "color",
+      "$value": "{colors.base.secondary-foreground-light}",
+      "$description": "Text and icons on secondary-colored elements"
+    },
+    "ring-offset": {
+      "$type": "color",
+      "$value": "{colors.base.background-light}",
+      "$description": "The color of the space between a focused element and its ring outline"
+    }
+  },
+  "alpha": {
+    "5": {
+      "$type": "color",
+      "$value": "#fffffff2"
+    },
+    "10": {
+      "$type": "color",
+      "$value": "#ffffffe6"
+    },
+    "20": {
+      "$type": "color",
+      "$value": "#ffffffcc"
+    },
+    "30": {
+      "$type": "color",
+      "$value": "#ffffffb3"
+    },
+    "40": {
+      "$type": "color",
+      "$value": "#ffffff99"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "#ffffff80"
+    },
+    "60": {
+      "$type": "color",
+      "$value": "#ffffff66"
+    },
+    "70": {
+      "$type": "color",
+      "$value": "#ffffff4d"
+    },
+    "80": {
+      "$type": "color",
+      "$value": "#ffffff33"
+    },
+    "90": {
+      "$type": "color",
+      "$value": "#ffffff1a"
+    }
+  },
+  "custom": {
+    "background dark:input\\30": {
+      "$type": "color",
+      "$value": "{base.background}",
+      "$description": "Used in UI elements that have background color variable in light mode and input/30 variable in dark mode"
+    },
+    "accent dark:input\\50": {
+      "$type": "color",
+      "$value": "{base.accent}",
+      "$description": "Used in UI elements that have accent color variable in light mode and input/50 variable in dark mode"
+    },
+    "outline": {
+      "$type": "color",
+      "$value": "#a3a3a380",
+      "$description": "Used in focus effect"
+    },
+    "destructive dark:destructive\\70": {
+      "$type": "color",
+      "$value": "{base.destructive}",
+      "$description": "Used in UI elements that have destructive color variable in light mode and destructive/70 variable in dark mode"
+    },
+    "destructive dark:destructive\\90": {
+      "$type": "color",
+      "$value": "{base.destructive}",
+      "$description": "Used in UI elements that have destructive color variable in light mode and destructive/90 variable in dark mode"
+    },
+    "destructive dark:destructive\\60": {
+      "$type": "color",
+      "$value": "{base.destructive}",
+      "$description": "Used in UI elements that have destructive color variable in light mode and destructive/60 variable in dark mode"
+    },
+    "dark:input": {
+      "$type": "color",
+      "$value": "#ffffff00",
+      "$description": "Used when UI element uses the dark:input class"
+    },
+    "input dark:input\\80": {
+      "$type": "color",
+      "$value": "{base.input}",
+      "$description": "Used in UI elements that have input color variable in light mode and input/80 variable in dark mode"
+    },
+    "destructive\\20 dark:destructive\\40": {
+      "$type": "color",
+      "$value": "#dc262633",
+      "$description": "Used in UI elements that have destructive/20 color variable in light mode and destructive/40 variable in dark mode"
+    },
+    "destructive\\40 dark:destructive\\60": {
+      "$type": "color",
+      "$value": "#dc262666",
+      "$description": "Used in UI elements that have destructive/40 color variable in light mode and destructive/60 variable in dark mode"
+    },
+    "outline\\10 dark:outline\\20": {
+      "$type": "color",
+      "$value": "#a3a3a31a",
+      "$description": "Used in UI elements that have outline/10 color variable in light mode and outline/20 variable in dark mode"
+    },
+    "accent dark:calendar\\50": {
+      "$type": "color",
+      "$value": "{base.accent}",
+      "$description": "Used in UI elements that have accent color variable in light mode and input/50 variable in dark mode"
+    },
+    "background dark:calendar\\30": {
+      "$type": "color",
+      "$value": "{base.background}",
+      "$description": "Used in UI elements that have background color variable in light mode and input/30 variable in dark mode"
+    },
+    "blue-500 dark:blue-600": {
+      "$type": "color",
+      "$value": "{tailwind colors.blue.500}",
+      "$description": "Used in UI elements that have accent color variable in light mode and input/50 variable in dark mode"
+    },
+    "border dark:input-dark": {
+      "$type": "color",
+      "$value": "{base.border}"
+    },
+    "ring dark:input-dark": {
+      "$type": "color",
+      "$value": "{base.ring}"
+    },
+    "ring dark:input-dark 2": {
+      "$type": "color",
+      "$value": "{base.ring}"
+    },
+    "bg-background\\20 dark:bg-background\\10": {
+      "$type": "color",
+      "$value": "#ffffff33",
+      "$description": "Used in Kbd Tooltip"
+    },
+    "bg-primary\\5 dark:bg-primary\\10": {
+      "$type": "color",
+      "$value": "#1717170d",
+      "$description": "Used in Kbd Tooltip"
+    }
+  }
+}
