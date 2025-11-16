@@ -3,7 +3,7 @@
     "base": {
       "primary-light": {
         "$type": "color",
-        "$value": "{tailwind-colors.neutral.900}"
+        "$value": "{tailwind-colors.amber.600}"
       },
       "primary-dark": {
         "$type": "color",
