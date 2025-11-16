@@ -2,9 +2,10 @@
   "tokenSetOrder": [
     "global",
     "Foundations/Default",
+    "Theme/Prime",
+    "Theme/TestTheme",
     "Mode/Light",
     "Mode/Dark",
-    "Theme/Prime",
     "Breakpoint/Desktop",
     "Breakpoint/Mobile"
   ]
