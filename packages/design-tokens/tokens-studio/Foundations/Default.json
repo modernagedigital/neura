@@ -1,5 +1,5 @@
 {
-  "tailwind-colors": {
+  "base-colors": {
     "base": {
       "black": {
         "$type": "color",
