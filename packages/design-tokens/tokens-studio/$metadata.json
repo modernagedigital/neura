@@ -2,6 +2,7 @@
   "tokenSetOrder": [
     "Primitives/settings",
     "Primitives/color-base",
+    "Primitives/spacing",
     "Primitives/base",
     "Theme/Prime",
     "Mode/Light",

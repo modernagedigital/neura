@@ -1,0 +1,310 @@
+{
+  "spacing": {
+    "fixed": {
+      "0": {
+        "$type": "dimension",
+        "$value": "0px"
+      },
+      "1": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 1"
+      },
+      "2": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 2"
+      },
+      "3": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 3"
+      },
+      "4": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 4"
+      },
+      "5": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 5"
+      },
+      "6": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 6"
+      },
+      "7": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 7"
+      },
+      "8": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 8"
+      },
+      "9": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 9"
+      },
+      "10": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 10"
+      },
+      "11": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 11"
+      },
+      "12": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 12"
+      },
+      "13": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 13"
+      },
+      "14": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 14"
+      },
+      "15": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 15"
+      },
+      "16": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 16"
+      },
+      "17": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 17"
+      },
+      "18": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 18"
+      },
+      "19": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 19"
+      },
+      "20": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 20"
+      },
+      "22": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 22"
+      },
+      "24": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 24"
+      },
+      "26": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 26"
+      },
+      "28": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 28"
+      },
+      "32": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 32"
+      },
+      "36": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 36"
+      },
+      "40": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 40"
+      },
+      "44": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 44"
+      },
+      "48": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 48"
+      },
+      "52": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 52"
+      },
+      "56": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 56"
+      },
+      "60": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 60"
+      },
+      "64": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 64"
+      },
+      "72": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 72"
+      },
+      "80": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 80"
+      },
+      "96": {
+        "$type": "dimension",
+        "$value": "{spacing.fixed.base} * 96"
+      }
+    },
+    "fluid": {
+      "2xs": {
+        "$type": "dimension",
+        "$value": "{space-calc} * 0.5",
+        "$description": "From 4 to 8"
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": "{space-calc} * 1",
+        "$description": "From 8 to 16"
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "{space-calc} + {spacing.fluid.increment}",
+        "$description": "From 16 to 24"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "{space-calc} + ({spacing.fluid.increment} * 2)",
+        "$description": "From 24 to 32"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "{space-calc} + ({spacing.fluid.increment} * 3)",
+        "$description": "From 32 to 40"
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "{space-calc} + ({spacing.fluid.increment} * 4)",
+        "$description": "From 40 to 48"
+      },
+      "2xl": {
+        "$type": "dimension",
+        "$value": "{space-calc} + ({spacing.fluid.increment} * 5)",
+        "$description": "From 48 to 56"
+      },
+      "3xl": {
+        "$type": "dimension",
+        "$value": "{space-calc} + ({spacing.fluid.increment} * 6)",
+        "$description": "From 56 to 64"
+      },
+      "4xl": {
+        "$type": "dimension",
+        "$value": "{space-calc} + ({spacing.fluid.increment} * 7)",
+        "$description": "From 64 to 72"
+      },
+      "5xl": {
+        "$type": "dimension",
+        "$value": "{space-calc} + ({spacing.fluid.increment} * 8)",
+        "$description": "From 72 to 80"
+      },
+      "6xl": {
+        "$type": "dimension",
+        "$value": "{space-calc} + ({spacing.fluid.increment} * 9)",
+        "$description": "From 80 to 88"
+      }
+    },
+    "1-up": {
+      "2xs-xs": {
+        "$type": "dimension",
+        "$value": "(({spacing.fluid.xs} - {spacing.fluid.2xs}) * {spacing.fluid.location}) + {spacing.fluid.2xs}",
+        "$description": "From 4 to 16"
+      },
+      "xs-sm": {
+        "$type": "dimension",
+        "$value": "(({spacing.fluid.sm} - {spacing.fluid.xs}) * {spacing.fluid.location}) + {spacing.fluid.xs}",
+        "$description": "From 8 to 24"
+      },
+      "sm-md": {
+        "$type": "dimension",
+        "$value": "(({spacing.fluid.md} - {spacing.fluid.sm}) * {spacing.fluid.location}) + {spacing.fluid.sm}",
+        "$description": "From 16 to 32"
+      },
+      "md-lg": {
+        "$type": "dimension",
+        "$value": "(({spacing.fluid.lg} - {spacing.fluid.md}) * {spacing.fluid.location}) + {spacing.fluid.md}",
+        "$description": "From 24 to 40"
+      },
+      "lg-xl": {
+        "$type": "dimension",
+        "$value": "(({spacing.fluid.xl} - {spacing.fluid.lg}) * {spacing.fluid.location}) + {spacing.fluid.lg}",
+        "$description": "From 32 to 48"
+      },
+      "xl-2xl": {
+        "$type": "dimension",
+        "$value": "(({spacing.fluid.2xl} - {spacing.fluid.xl}) * {spacing.fluid.location}) + {spacing.fluid.xl}",
+        "$description": "From 40 to 56"
+      },
+      "2xl-3xl": {
+        "$type": "dimension",
+        "$value": "(({spacing.fluid.3xl} - {spacing.fluid.2xl}) * {spacing.fluid.location}) + {spacing.fluid.2xl}",
+        "$description": "From 48 to 64"
+      },
+      "3xl-4xl": {
+        "$type": "dimension",
+        "$value": "(({spacing.fluid.4xl} - {spacing.fluid.3xl}) * {spacing.fluid.location}) + {spacing.fluid.3xl}",
+        "$description": "From 56 to 72"
+      },
+      "4xl-5xl": {
+        "$type": "dimension",
+        "$value": "(({spacing.fluid.5xl} - {spacing.fluid.4xl}) * {spacing.fluid.location}) + {spacing.fluid.4xl}",
+        "$description": "From 64 to 80"
+      },
+      "5xl-6xl": {
+        "$type": "dimension",
+        "$value": "(({spacing.fluid.6xl} - {spacing.fluid.5xl}) * {spacing.fluid.location}) + {spacing.fluid.5xl}",
+        "$description": "From 72 to 88"
+      }
+    },
+    "2-up": {
+      "2xs-sm": {
+        "$type": "dimension",
+        "$value": "(({spacing.fluid.sm} - {spacing.fluid.2xs}) * {spacing.fluid.location}) + {spacing.fluid.2xs}",
+        "$description": "From 4 to 24"
+      },
+      "xs-md": {
+        "$type": "dimension",
+        "$value": "(({spacing.fluid.md} - {spacing.fluid.xs}) * {spacing.fluid.location}) + {spacing.fluid.xs}",
+        "$description": "From 8 to 32"
+      },
+      "sm-lg": {
+        "$type": "dimension",
+        "$value": "(({spacing.fluid.lg} - {spacing.fluid.sm}) * {spacing.fluid.location}) + {spacing.fluid.sm}",
+        "$description": "From 16 to 40"
+      },
+      "md-xl": {
+        "$type": "dimension",
+        "$value": "(({spacing.fluid.xl} - {spacing.fluid.md}) * {spacing.fluid.location}) + {spacing.fluid.md}",
+        "$description": "From 24 to 48"
+      },
+      "lg-2xl": {
+        "$type": "dimension",
+        "$value": "(({spacing.fluid.2xl} - {spacing.fluid.lg}) * {spacing.fluid.location}) + {spacing.fluid.lg}",
+        "$description": "From 32 to 56"
+      },
+      "xl-3xl": {
+        "$type": "dimension",
+        "$value": "(({spacing.fluid.3xl} - {spacing.fluid.xl}) * {spacing.fluid.location}) + {spacing.fluid.xl}",
+        "$description": "From 40 to 64"
+      },
+      "2xl-4xl": {
+        "$type": "dimension",
+        "$value": "(({spacing.fluid.4xl} - {spacing.fluid.2xl}) * {spacing.fluid.location}) + {spacing.fluid.2xl}",
+        "$description": "From 48 to 72"
+      },
+      "3xl-5xl": {
+        "$type": "dimension",
+        "$value": "(({spacing.fluid.5xl} - {spacing.fluid.3xl}) * {spacing.fluid.location}) + {spacing.fluid.3xl}",
+        "$description": "From 56 to 80"
+      },
+      "4xl-6xl": {
+        "$type": "dimension",
+        "$value": "(({spacing.fluid.6xl} - {spacing.fluid.4xl}) * {spacing.fluid.location}) + {spacing.fluid.4xl}",
+        "$description": "From 64 to 88"
+      }
+    }
+  }
+}
