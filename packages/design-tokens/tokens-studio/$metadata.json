@@ -1,11 +1,11 @@
 {
   "tokenSetOrder": [
     "Foundations/Default",
-    "Breakpoint/Desktop",
-    "Breakpoint/Mobile",
     "Theme/Prime",
     "Mode/Light",
     "Mode/Dark",
+    "Breakpoint/Desktop",
+    "Breakpoint/Mobile",
     "Sites/Site B"
   ]
 }

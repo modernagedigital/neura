@@ -248,6 +248,18 @@
               "$type": "color",
               "$value": "#ffffff"
             },
+            "surface-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "foreground-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "border-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
             "hover": {
               "surface": {
                 "$type": "color",
@@ -258,6 +270,18 @@
                 "$value": "#ffffff"
               },
               "border": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "surface-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border-inverse": {
                 "$type": "color",
                 "$value": "#ffffff"
               }
@@ -272,6 +296,18 @@
                 "$value": "#ffffff"
               },
               "border": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "surface-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border-inverse": {
                 "$type": "color",
                 "$value": "#ffffff"
               }
@@ -290,8 +326,20 @@
               "$type": "color",
               "$value": "#ffffff"
             },
+            "surface-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "foreground-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "border-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
             "hover": {
-              "border": {
+              "surface": {
                 "$type": "color",
                 "$value": "#ffffff"
               },
@@ -299,7 +347,19 @@
                 "$type": "color",
                 "$value": "#ffffff"
               },
-              "surface": {
+              "border": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "surface-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border-inverse": {
                 "$type": "color",
                 "$value": "#ffffff"
               }
@@ -314,6 +374,18 @@
                 "$value": "#ffffff"
               },
               "border": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "surface-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border-inverse": {
                 "$type": "color",
                 "$value": "#ffffff"
               }
@@ -343,6 +415,214 @@
             "border-inverse": {
               "$type": "color",
               "$value": "#ffffff"
+            },
+            "hover": {
+              "surface": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "surface-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              }
+            },
+            "pressed": {
+              "surface": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "surface-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              }
+            }
+          },
+          "ghost": {
+            "surface": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "foreground": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "border": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "surface-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "foreground-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "border-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "hover": {
+              "surface": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "surface-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              }
+            },
+            "pressed": {
+              "surface": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "surface-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              }
+            }
+          },
+          "link": {
+            "surface": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "foreground": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "border": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "surface-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "foreground-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "border-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "hover": {
+              "surface": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "surface-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              }
+            },
+            "pressed": {
+              "surface": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "surface-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              }
             }
           }
         },
@@ -360,6 +640,18 @@
               "$type": "color",
               "$value": "#ffffff"
             },
+            "surface-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "foreground-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "border-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
             "hover": {
               "surface": {
                 "$type": "color",
@@ -370,6 +662,18 @@
                 "$value": "#ffffff"
               },
               "border": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "surface-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border-inverse": {
                 "$type": "color",
                 "$value": "#ffffff"
               }
@@ -384,6 +688,18 @@
                 "$value": "#ffffff"
               },
               "border": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "surface-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border-inverse": {
                 "$type": "color",
                 "$value": "#ffffff"
               }
@@ -402,8 +718,20 @@
               "$type": "color",
               "$value": "#ffffff"
             },
+            "surface-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "foreground-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "border-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
             "hover": {
-              "border": {
+              "surface": {
                 "$type": "color",
                 "$value": "#ffffff"
               },
@@ -411,7 +739,19 @@
                 "$type": "color",
                 "$value": "#ffffff"
               },
-              "surface": {
+              "border": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "surface-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border-inverse": {
                 "$type": "color",
                 "$value": "#ffffff"
               }
@@ -426,6 +766,18 @@
                 "$value": "#ffffff"
               },
               "border": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "surface-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border-inverse": {
                 "$type": "color",
                 "$value": "#ffffff"
               }
@@ -455,11 +807,219 @@
             "border-inverse": {
               "$type": "color",
               "$value": "#ffffff"
+            },
+            "hover": {
+              "surface": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "surface-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              }
+            },
+            "pressed": {
+              "surface": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "surface-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              }
+            }
+          },
+          "ghost": {
+            "surface": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "foreground": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "border": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "surface-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "foreground-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "border-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "hover": {
+              "surface": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "surface-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              }
+            },
+            "pressed": {
+              "surface": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "surface-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              }
+            }
+          },
+          "link": {
+            "surface": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "foreground": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "border": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "surface-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "foreground-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "border-inverse": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "hover": {
+              "surface": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "surface-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              }
+            },
+            "pressed": {
+              "surface": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "surface-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "foreground-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              },
+              "border-inverse": {
+                "$type": "color",
+                "$value": "#ffffff"
+              }
             }
           }
         }
       },
-      "font": {
+      "font-family": {
         "$type": "text",
         "$value": "{font.font-sans}"
       },
@@ -481,13 +1041,17 @@
             "$type": "dimension",
             "$value": "0.5rem"
           },
-          "radius": {
+          "border-radius": {
             "$type": "dimension",
             "$value": "0rem"
           },
-          "icon": {
+          "icon-size": {
             "$type": "dimension",
             "$value": "{spacing.8}"
+          },
+          "min-height": {
+            "$type": "dimension",
+            "$value": "{spacing.10}"
           }
         },
         "sm": {
@@ -503,13 +1067,17 @@
             "$type": "dimension",
             "$value": "0.5rem"
           },
-          "radius": {
+          "border-radius": {
             "$type": "dimension",
             "$value": "0rem"
           },
-          "icon": {
+          "icon-size": {
             "$type": "dimension",
             "$value": "{spacing.6}"
+          },
+          "min-height": {
+            "$type": "dimension",
+            "$value": "{spacing.10}"
           }
         },
         "lg": {
@@ -525,13 +1093,17 @@
             "$type": "dimension",
             "$value": "0.5rem"
           },
-          "radius": {
+          "border-radius": {
             "$type": "dimension",
             "$value": "0rem"
           },
-          "icon": {
+          "icon-size": {
             "$type": "dimension",
             "$value": "0rem"
+          },
+          "min-height": {
+            "$type": "dimension",
+            "$value": "{spacing.12}"
           }
         }
       }
