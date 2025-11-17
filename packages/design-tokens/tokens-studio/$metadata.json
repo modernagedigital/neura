@@ -1,6 +1,8 @@
 {
   "tokenSetOrder": [
-    "Foundations/Default",
+    "Primitives/settings",
+    "Primitives/color-base",
+    "Primitives/base",
     "Theme/Prime",
     "Mode/Light",
     "Mode/Dark",

@@ -3,85 +3,85 @@
     "light": {
       "primary": {
         "$type": "color",
-        "$value": "{color-base.amber.600}"
+        "$value": "{color.amber.600}"
       },
       "accent": {
         "$type": "color",
-        "$value": "{color-base.neutral.100}"
+        "$value": "{color.neutral.100}"
       },
       "background": {
         "$type": "color",
-        "$value": "{color-base.base.white}"
+        "$value": "{color.white}"
       },
       "border": {
         "$type": "color",
-        "$value": "{color-base.neutral.200}"
+        "$value": "{color.neutral.200}"
       },
       "card": {
         "$type": "color",
-        "$value": "{color-base.base.white}"
+        "$value": "{color.white}"
       },
       "card-foreground": {
         "$type": "color",
-        "$value": "{color-base.neutral.950}"
+        "$value": "{color.neutral.950}"
       },
       "destructive": {
         "$type": "color",
-        "$value": "{color-base.red.600}"
+        "$value": "{color.red.600}"
       },
       "destructive-foreground": {
         "$type": "color",
-        "$value": "{color-base.red.50}"
+        "$value": "{color.red.50}"
       },
       "accent-foreground": {
         "$type": "color",
-        "$value": "{color-base.neutral.900}"
+        "$value": "{color.neutral.900}"
       },
       "foreground": {
         "$type": "color",
-        "$value": "{color-base.neutral.950}"
+        "$value": "{color.neutral.950}"
       },
       "input": {
         "$type": "color",
-        "$value": "{color-base.neutral.200}"
+        "$value": "{color.neutral.200}"
       },
       "muted": {
         "$type": "color",
-        "$value": "{color-base.neutral.100}"
+        "$value": "{color.neutral.100}"
       },
       "primary-foreground": {
         "$type": "color",
-        "$value": "{color-base.neutral.50}"
+        "$value": "{color.neutral.50}"
       },
       "ring": {
         "$type": "color",
-        "$value": "{color-base.neutral.400}"
+        "$value": "{color.neutral.400}"
       },
       "secondary": {
         "$type": "color",
-        "$value": "{color-base.neutral.100}"
+        "$value": "{color.neutral.100}"
       },
       "secondary-foreground": {
         "$type": "color",
-        "$value": "{color-base.neutral.900}"
+        "$value": "{color.neutral.900}"
       },
       "muted-foreground": {
         "$type": "color",
-        "$value": "{color-base.neutral.500}"
+        "$value": "{color.neutral.500}"
       }
     },
     "dark": {
       "primary": {
         "$type": "color",
-        "$value": "{color-base.neutral.200}"
+        "$value": "{color.neutral.200}"
       },
       "accent-foreground": {
         "$type": "color",
-        "$value": "{color-base.neutral.50}"
+        "$value": "{color.neutral.50}"
       },
       "background": {
         "$type": "color",
-        "$value": "{color-base.neutral.950}"
+        "$value": "{color.neutral.950}"
       },
       "border": {
         "$type": "color",
@@ -89,27 +89,27 @@
       },
       "card": {
         "$type": "color",
-        "$value": "{color-base.neutral.900}"
+        "$value": "{color.neutral.900}"
       },
       "accent": {
         "$type": "color",
-        "$value": "{color-base.neutral.700}"
+        "$value": "{color.neutral.700}"
       },
       "card-foreground": {
         "$type": "color",
-        "$value": "{color-base.neutral.50}"
+        "$value": "{color.neutral.50}"
       },
       "destructive": {
         "$type": "color",
-        "$value": "{color-base.red.400}"
+        "$value": "{color.red.400}"
       },
       "destructive-foreground": {
         "$type": "color",
-        "$value": "{color-base.red.50}"
+        "$value": "{color.red.50}"
       },
       "foreground": {
         "$type": "color",
-        "$value": "{color-base.neutral.50}"
+        "$value": "{color.neutral.50}"
       },
       "input": {
         "$type": "color",
@@ -117,27 +117,27 @@
       },
       "muted": {
         "$type": "color",
-        "$value": "{color-base.neutral.800}"
+        "$value": "{color.neutral.800}"
       },
       "primary-foreground": {
         "$type": "color",
-        "$value": "{color-base.neutral.900}"
+        "$value": "{color.neutral.900}"
       },
       "ring": {
         "$type": "color",
-        "$value": "{color-base.neutral.500}"
+        "$value": "{color.neutral.500}"
       },
       "secondary": {
         "$type": "color",
-        "$value": "{color-base.neutral.800}"
+        "$value": "{color.neutral.800}"
       },
       "secondary-foreground": {
         "$type": "color",
-        "$value": "{color-base.neutral.50}"
+        "$value": "{color.neutral.50}"
       },
       "muted-foreground": {
         "$type": "color",
-        "$value": "{color-base.neutral.400}"
+        "$value": "{color.neutral.400}"
       }
     }
   },

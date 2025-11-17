@@ -3,7 +3,7 @@
     "id": "foundations-default",
     "name": "Default",
     "selectedTokenSets": {
-      "Foundations/Default": "enabled"
+      "Primitives/base": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
