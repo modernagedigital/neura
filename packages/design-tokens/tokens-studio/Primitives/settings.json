@@ -1,189 +1,185 @@
 {
   "breakpoint": {
     "2xs": {
-      "$type": "other",
+      "$type": "number",
       "$value": "375"
     },
     "xs": {
-      "$type": "other",
+      "$type": "number",
       "$value": "480"
     },
     "sm": {
-      "$type": "other",
+      "$type": "number",
       "$value": "640"
     },
     "md": {
-      "$type": "other",
+      "$type": "number",
       "$value": "768"
     },
     "lg": {
-      "$type": "other",
+      "$type": "number",
       "$value": "1024"
     },
     "xl": {
-      "$type": "other",
+      "$type": "number",
       "$value": "1280"
     },
     "2xl": {
-      "$type": "other",
+      "$type": "number",
       "$value": "1536"
     }
   },
   "spacing": {
     "fixed": {
       "base": {
-        "$type": "other",
+        "$type": "number",
         "$value": "4",
         "$description": "The spacing multipiler for fixed spacing"
       }
     },
     "fluid": {
       "min": {
-        "$type": "other",
+        "$type": "number",
         "$value": "8"
       },
       "max": {
-        "$type": "other",
+        "$type": "number",
         "$value": "16"
       },
       "increment": {
-        "$type": "other",
+        "$type": "number",
         "$value": "8"
       },
       "location": {
-        "$type": "other",
-        "$value": "(1 / {breakpoint.xl} ) * {breakpoint.xs}"
+        "$type": "number",
+        "$value": "(({active-breakpoint} - {breakpoint.2xs}) / ({breakpoint.xl} - {breakpoint.2xs}))",
+        "$description": "Normalized viewport position between the min and max breakpoints (0 = min width, 1 = max width). Used as a multiplier for responsive interpolation."
       }
     }
   },
   "type": {
     "ratio": {
       "min": {
-        "$type": "other",
+        "$type": "number",
         "$value": "1.125",
         "$description": "Type scaling ratio for small screens"
       },
       "max": {
-        "$type": "other",
+        "$type": "number",
         "$value": "1.25",
         "$description": "Type scaling ratio for large screens"
       }
     },
     "min": {
       "2xs": {
-        "$type": "other",
+        "$type": "number",
         "$value": "round({type.base-size.min} * 0.675)"
       },
       "xs": {
-        "$type": "other",
+        "$type": "number",
         "$value": "round({type.base-size.min} * 0.75)"
       },
       "sm": {
-        "$type": "other",
+        "$type": "number",
         "$value": "round({type.base-size.min} * 0.875)"
       },
       "base": {
-        "$type": "other",
+        "$type": "number",
         "$value": "{type.base-size.min}"
       },
       "lg": {
-        "$type": "other",
+        "$type": "number",
         "$value": "{type.base-size.min} * {type.ratio.min}"
       },
       "xl": {
-        "$type": "other",
+        "$type": "number",
         "$value": "{type.min.lg} * {type.ratio.min}"
       },
       "2xl": {
-        "$type": "other",
+        "$type": "number",
         "$value": "{type.min.xl} * {type.ratio.min}"
       },
       "3xl": {
-        "$type": "other",
+        "$type": "number",
         "$value": "{type.min.2xl} * {type.ratio.min}"
       },
       "4xl": {
-        "$type": "other",
+        "$type": "number",
         "$value": "{type.min.3xl} * {type.ratio.min}"
       },
       "5xl": {
-        "$type": "other",
+        "$type": "number",
         "$value": "{type.min.4xl} * {type.ratio.min}"
       },
       "6xl": {
-        "$type": "other",
+        "$type": "number",
         "$value": "{type.min.5xl} * {type.ratio.min}"
       }
     },
     "base-size": {
       "min": {
-        "$type": "other",
-        "$value": "16"
+        "$type": "number",
+        "$value": 16
       },
       "max": {
-        "$type": "other",
+        "$type": "number",
         "$value": "18"
       }
     },
     "max": {
       "2xs": {
-        "$type": "other",
+        "$type": "number",
         "$value": "round({type.base-size.max} * 0.675)"
       },
       "xs": {
-        "$type": "other",
+        "$type": "number",
         "$value": "round({type.base-size.max} * 0.75)"
       },
       "sm": {
-        "$type": "other",
+        "$type": "number",
         "$value": "round({type.base-size.max} * 0.875)"
       },
       "base": {
-        "$type": "other",
+        "$type": "number",
         "$value": "{type.base-size.max}"
       },
       "lg": {
-        "$type": "other",
+        "$type": "number",
         "$value": "{type.base-size.max} * {type.ratio.max}"
       },
       "xl": {
-        "$type": "other",
+        "$type": "number",
         "$value": "{type.max.lg} * {type.ratio.max}"
       },
       "2xl": {
-        "$type": "other",
+        "$type": "number",
         "$value": "{type.max.xl} * {type.ratio.max}"
       },
       "3xl": {
-        "$type": "other",
+        "$type": "number",
         "$value": "{type.max.2xl} * {type.ratio.max}"
       },
       "4xl": {
-        "$type": "other",
+        "$type": "number",
         "$value": "{type.max.3xl} * {type.ratio.max}"
       },
       "5xl": {
-        "$type": "other",
+        "$type": "number",
         "$value": "{type.max.4xl} * {type.ratio.max}"
       },
       "6xl": {
-        "$type": "other",
+        "$type": "number",
         "$value": "{type.max.5xl} * {type.ratio.max}"
       }
     }
   },
   "active-breakpoint": {
-    "$type": "other",
+    "$type": "number",
     "$value": "{breakpoint.2xs}"
   },
-  "screen-location": {
-    "$type": "other",
-    "$value": "(({active-breakpoint} - {breakpoint.2xs}) / ({breakpoint.xl} - {breakpoint.2xs}))",
-    "$description": "Normalized viewport position between the min and max breakpoints (0 = min width, 1 = max width). Used as a multiplier for responsive interpolation."
-  },
   "space-calc": {
-    "$type": "other",
-    "$value": "(((({spacing.fluid.max} - {spacing.fluid.min}) * {screen-location}) + {spacing.fluid.min}))",
+    "$type": "number",
+    "$value": "(((({spacing.fluid.max} - {spacing.fluid.min}) * {spacing.fluid.location}) + {spacing.fluid.min}))",
     "$description": "Responsive space value interpolated between {space.min} and {space.max} using {screen-location} as the blend factor."
   }
 }

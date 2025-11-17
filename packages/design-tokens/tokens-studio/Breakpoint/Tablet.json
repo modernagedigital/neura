@@ -1,6 +1,6 @@
 {
   "active-breakpoint": {
     "$type": "number",
-    "$value": "{breakpoint.xl}"
+    "$value": "{breakpoint.md}"
   }
 }

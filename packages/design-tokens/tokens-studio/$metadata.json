@@ -2,12 +2,14 @@
   "tokenSetOrder": [
     "Primitives/settings",
     "Primitives/color-base",
-    "Primitives/spacing",
+    "Primitives/sizing",
+    "Primitives/typography",
     "Primitives/base",
     "Theme/Prime",
     "Mode/Light",
     "Mode/Dark",
     "Breakpoint/Desktop",
+    "Breakpoint/Tablet",
     "Breakpoint/Mobile",
     "Sites/Site B"
   ]

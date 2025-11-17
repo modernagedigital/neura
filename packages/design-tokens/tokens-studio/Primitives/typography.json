@@ -1,0 +1,48 @@
+{
+  "font-size": {
+    "2xs": {
+      "$type": "fontSizes",
+      "$value": "(((({type.max.2xs} - {type.min.2xs}) * {spacing.fluid.location} + {type.min.2xs}) / 16) * 1rem)"
+    },
+    "xs": {
+      "$type": "fontSizes",
+      "$value": "(((({type.max.xs} - {type.min.xs}) * {spacing.fluid.location} + {type.min.xs}) / 16) * 1rem)"
+    },
+    "sm": {
+      "$type": "fontSizes",
+      "$value": "({type.max.sm} - {type.min.sm}) * {spacing.fluid.location} + {type.min.sm}"
+    },
+    "base": {
+      "$type": "fontSizes",
+      "$value": "({type.max.base} - {type.min.base}) * {spacing.fluid.location} + {type.min.base}"
+    },
+    "lg": {
+      "$type": "fontSizes",
+      "$value": "({type.max.lg} - {type.min.lg}) * {spacing.fluid.location} + {type.min.lg}"
+    },
+    "xl": {
+      "$type": "fontSizes",
+      "$value": "({type.max.xl} - {type.min.xl}) * {spacing.fluid.location} + {type.min.xl}"
+    },
+    "2xl": {
+      "$type": "fontSizes",
+      "$value": "({type.max.2xl} - {type.min.2xl}) * {spacing.fluid.location} + {type.min.2xl}"
+    },
+    "3xl": {
+      "$type": "fontSizes",
+      "$value": "({type.max.3xl} - {type.min.3xl}) * {spacing.fluid.location} + {type.min.3xl}"
+    },
+    "4xl": {
+      "$type": "fontSizes",
+      "$value": "({type.max.4xl} - {type.min.4xl}) * {spacing.fluid.location} + {type.min.4xl}"
+    },
+    "5xl": {
+      "$type": "fontSizes",
+      "$value": "({type.max.5xl} - {type.min.5xl}) * {spacing.fluid.location} + {type.min.5xl}"
+    },
+    "6xl": {
+      "$type": "fontSizes",
+      "$value": "({type.max.6xl} - {type.min.6xl}) * {spacing.fluid.location} + {type.min.6xl}"
+    }
+  }
+}
