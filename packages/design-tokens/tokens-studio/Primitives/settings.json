@@ -1,0 +1,169 @@
+{
+  "breakpoint": {
+    "2xs": {
+      "$type": "other",
+      "$value": "375"
+    },
+    "xs": {
+      "$type": "other",
+      "$value": "480"
+    },
+    "sm": {
+      "$type": "other",
+      "$value": "640"
+    },
+    "md": {
+      "$type": "other",
+      "$value": "768"
+    },
+    "lg": {
+      "$type": "other",
+      "$value": "1024"
+    },
+    "xl": {
+      "$type": "other",
+      "$value": "1280"
+    },
+    "2xl": {
+      "$type": "other",
+      "$value": "1536"
+    }
+  },
+  "fixed-space-base": {
+    "$type": "other",
+    "$value": "4",
+    "$description": "The spacing multipiler for fixed spacing"
+  },
+  "space": {
+    "min": {
+      "$type": "other",
+      "$value": "24"
+    },
+    "max": {
+      "$type": "other",
+      "$value": "32"
+    }
+  },
+  "type": {
+    "ratio": {
+      "min": {
+        "$type": "other",
+        "$value": "1.125",
+        "$description": "Type scaling ratio for small screens"
+      },
+      "max": {
+        "$type": "other",
+        "$value": "1.25",
+        "$description": "Type scaling ratio for large screens"
+      }
+    },
+    "min": {
+      "xs": {
+        "$type": "other",
+        "$value": "12"
+      },
+      "sm": {
+        "$type": "other",
+        "$value": "14"
+      },
+      "base": {
+        "$type": "other",
+        "$value": "{type.baseSize.min}"
+      },
+      "lg": {
+        "$type": "other",
+        "$value": "{type.baseSize.min} * {type.ratio.min}"
+      },
+      "xl": {
+        "$type": "other",
+        "$value": "{type.min.lg} * {type.ratio.min}"
+      },
+      "2xl": {
+        "$type": "other",
+        "$value": "{type.min.xl} * {type.ratio.min}"
+      },
+      "3xl": {
+        "$type": "other",
+        "$value": "{type.min.2xl} * {type.ratio.min}"
+      },
+      "4xl": {
+        "$type": "other",
+        "$value": "{type.min.3xl} * {type.ratio.min}"
+      },
+      "5xl": {
+        "$type": "other",
+        "$value": "{type.min.4xl} * {type.ratio.min}"
+      },
+      "6xl": {
+        "$type": "other",
+        "$value": "{type.min.5xl} * {type.ratio.min}"
+      }
+    },
+    "baseSize": {
+      "min": {
+        "$type": "other",
+        "$value": "16"
+      },
+      "max": {
+        "$type": "other",
+        "$value": "18"
+      }
+    },
+    "max": {
+      "xs": {
+        "$type": "other",
+        "$value": "13"
+      },
+      "sm": {
+        "$type": "other",
+        "$value": "16"
+      },
+      "base": {
+        "$type": "other",
+        "$value": "{type.baseSize.max}"
+      },
+      "lg": {
+        "$type": "other",
+        "$value": "{type.baseSize.max} * {type.ratio.max}"
+      },
+      "xl": {
+        "$type": "other",
+        "$value": "{type.max.lg} * {type.ratio.max}"
+      },
+      "2xl": {
+        "$type": "other",
+        "$value": "{type.max.xl} * {type.ratio.max}"
+      },
+      "3xl": {
+        "$type": "other",
+        "$value": "{type.max.2xl} * {type.ratio.max}"
+      },
+      "4xl": {
+        "$type": "other",
+        "$value": "{type.max.3xl} * {type.ratio.max}"
+      },
+      "5xl": {
+        "$type": "other",
+        "$value": "{type.max.4xl} * {type.ratio.max}"
+      },
+      "6xl": {
+        "$type": "other",
+        "$value": "{type.max.5xl} * {type.ratio.max}"
+      }
+    }
+  },
+  "active-breakpoint": {
+    "$type": "other",
+    "$value": "{breakpoint.2xs}"
+  },
+  "screen-location": {
+    "$type": "other",
+    "$value": "(({active-breakpoint} - {breakpoint.2xs}) / ({breakpoint.xl} - {breakpoint.2xs}))",
+    "$description": "Normalized viewport position between the min and max breakpoints (0 = min width, 1 = max width). Used as a multiplier for responsive interpolation."
+  },
+  "space-calc": {
+    "$type": "other",
+    "$value": "(((({space.max} - {space.min}) * {screen-location}) + {space.min}))",
+    "$description": "Responsive space value interpolated between {space.min} and {space.max} using {screen-location} as the blend factor."
+  }
+}
