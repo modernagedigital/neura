@@ -2,62 +2,62 @@
   "base": {
     "accent": {
       "$type": "color",
-      "$value": "{colors.base.accent-dark}",
+      "$value": "{colors.light.accent-dark}",
       "$description": "Highlight color for active or focused elements"
     },
     "accent-foreground": {
       "$type": "color",
-      "$value": "{colors.base.accent-foreground-dark}",
+      "$value": "{colors.light.accent-foreground-dark}",
       "$description": "Text and icons on accent-colored elements"
     },
     "background": {
       "$type": "color",
-      "$value": "{colors.base.background-dark}",
+      "$value": "{colors.light.background-dark}",
       "$description": "Main application background"
     },
     "border": {
       "$type": "color",
-      "$value": "{colors.base.border-dark}",
+      "$value": "{colors.light.border-dark}",
       "$description": "Default border color"
     },
     "card": {
       "$type": "color",
-      "$value": "{colors.base.card-dark}",
+      "$value": "{colors.light.card-dark}",
       "$description": "Card component background"
     },
     "card-foreground": {
       "$type": "color",
-      "$value": "{colors.base.card-foreground-dark}",
+      "$value": "{colors.light.card-foreground-dark}",
       "$description": "Text and icons within cards"
     },
     "destructive": {
       "$type": "color",
-      "$value": "{colors.base.destructive-dark}",
+      "$value": "{colors.light.destructive-dark}",
       "$description": "Error and deletion action color"
     },
     "destructive-foreground": {
       "$type": "color",
-      "$value": "{colors.base.destructive-foreground-dark}",
+      "$value": "{colors.light.destructive-foreground-dark}",
       "$description": "Text and icons on destructive-colored elements"
     },
     "foreground": {
       "$type": "color",
-      "$value": "{colors.base.foreground-dark}",
+      "$value": "{colors.light.foreground-dark}",
       "$description": "Primary text color on the background"
     },
     "input": {
       "$type": "color",
-      "$value": "{colors.base.input-dark}",
+      "$value": "{colors.light.input-dark}",
       "$description": "Form inputs and button borders"
     },
     "muted": {
       "$type": "color",
-      "$value": "{colors.base.muted-dark}",
+      "$value": "{colors.light.muted-dark}",
       "$description": "Subdued background for less important elements"
     },
     "muted-foreground": {
       "$type": "color",
-      "$value": "{colors.base.muted-foreground-dark}",
+      "$value": "{colors.light.muted-foreground-dark}",
       "$description": "De-emphasized text (captions, labels)"
     },
     "popover": {
@@ -72,32 +72,32 @@
     },
     "primary": {
       "$type": "color",
-      "$value": "{colors.base.primary-dark}",
+      "$value": "{colors.light.primary-dark}",
       "$description": "Brand color for primary actions (buttons, highlights)"
     },
     "primary-foreground": {
       "$type": "color",
-      "$value": "{colors.base.primary-foreground-dark}",
+      "$value": "{colors.light.primary-foreground-dark}",
       "$description": "Text and icons on primary-colored elements"
     },
     "ring": {
       "$type": "color",
-      "$value": "{colors.base.ring-dark}",
+      "$value": "{colors.light.ring-dark}",
       "$description": "Focus indicator color"
     },
     "secondary": {
       "$type": "color",
-      "$value": "{colors.base.secondary-dark}",
+      "$value": "{colors.light.secondary-dark}",
       "$description": "Less prominent action color"
     },
     "secondary-foreground": {
       "$type": "color",
-      "$value": "{colors.base.secondary-foreground-dark}",
+      "$value": "{colors.light.secondary-foreground-dark}",
       "$description": "Text and icons on secondary-colored elements"
     },
     "ring-offset": {
       "$type": "color",
-      "$value": "{colors.base.background-dark}",
+      "$value": "{colors.light.background-dark}",
       "$description": "The color of the space between a focused element and its ring outline"
     }
   },
@@ -216,15 +216,15 @@
     },
     "border dark:input-dark": {
       "$type": "color",
-      "$value": "{colors.base.input-dark}"
+      "$value": "{colors.light.input-dark}"
     },
     "ring dark:input-dark": {
       "$type": "color",
-      "$value": "{colors.base.input-dark}"
+      "$value": "{colors.light.input-dark}"
     },
     "ring dark:input-dark 2": {
       "$type": "color",
-      "$value": "{colors.base.input-dark}"
+      "$value": "{colors.light.input-dark}"
     },
     "bg-background\\20 dark:bg-background\\10": {
       "$type": "color",

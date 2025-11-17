@@ -2,62 +2,62 @@
   "base": {
     "accent": {
       "$type": "color",
-      "$value": "{colors.base.accent-light}",
+      "$value": "{colors.light.accent-light}",
       "$description": "Highlight color for active or focused elements"
     },
     "accent-foreground": {
       "$type": "color",
-      "$value": "{colors.base.accent-foreground-light}",
+      "$value": "{colors.light.accent-foreground-light}",
       "$description": "Text and icons on accent-colored elements"
     },
     "background": {
       "$type": "color",
-      "$value": "{colors.base.background-light}",
+      "$value": "{colors.light.background-light}",
       "$description": "Main application background"
     },
     "border": {
       "$type": "color",
-      "$value": "{colors.base.border-light}",
+      "$value": "{colors.light.border-light}",
       "$description": "Default border color"
     },
     "card": {
       "$type": "color",
-      "$value": "{colors.base.card-light}",
+      "$value": "{colors.light.card-light}",
       "$description": "Card component background"
     },
     "card-foreground": {
       "$type": "color",
-      "$value": "{colors.base.card-foreground-light}",
+      "$value": "{colors.light.card-foreground-light}",
       "$description": "Text and icons within cards"
     },
     "destructive": {
       "$type": "color",
-      "$value": "{colors.base.destructive-light}",
+      "$value": "{colors.light.destructive-light}",
       "$description": "Error and deletion action color"
     },
     "destructive-foreground": {
       "$type": "color",
-      "$value": "{colors.base.destructive-foreground-light}",
+      "$value": "{colors.light.destructive-foreground-light}",
       "$description": "Text and icons on destructive-colored elements"
     },
     "foreground": {
       "$type": "color",
-      "$value": "{colors.base.foreground-light}",
+      "$value": "{colors.light.foreground-light}",
       "$description": "Primary text color on the background"
     },
     "input": {
       "$type": "color",
-      "$value": "{colors.base.input-light}",
+      "$value": "{colors.light.input-light}",
       "$description": "Form inputs and button borders"
     },
     "muted": {
       "$type": "color",
-      "$value": "{colors.base.muted-light}",
+      "$value": "{colors.light.muted-light}",
       "$description": "Subdued background for less important elements"
     },
     "muted-foreground": {
       "$type": "color",
-      "$value": "{colors.base.muted-foreground-light}",
+      "$value": "{colors.light.muted-foreground-light}",
       "$description": "De-emphasized text (captions, labels)"
     },
     "popover": {
@@ -72,32 +72,32 @@
     },
     "primary": {
       "$type": "color",
-      "$value": "{colors.base.primary-light}",
+      "$value": "{colors.light.primary-light}",
       "$description": "Brand color for primary actions (buttons, highlights)"
     },
     "primary-foreground": {
       "$type": "color",
-      "$value": "{colors.base.primary-foreground-light}",
+      "$value": "{colors.light.primary-foreground-light}",
       "$description": "Text and icons on primary-colored elements"
     },
     "ring": {
       "$type": "color",
-      "$value": "{colors.base.ring-light}",
+      "$value": "{colors.light.ring-light}",
       "$description": "Focus indicator color"
     },
     "secondary": {
       "$type": "color",
-      "$value": "{colors.base.secondary-light}",
+      "$value": "{colors.light.secondary-light}",
       "$description": "Less prominent action color"
     },
     "secondary-foreground": {
       "$type": "color",
-      "$value": "{colors.base.secondary-foreground-light}",
+      "$value": "{colors.light.secondary-foreground-light}",
       "$description": "Text and icons on secondary-colored elements"
     },
     "ring-offset": {
       "$type": "color",
-      "$value": "{colors.base.background-light}",
+      "$value": "{colors.light.background-light}",
       "$description": "The color of the space between a focused element and its ring outline"
     }
   },
